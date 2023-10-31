@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 3 HW assignment</title>
+  </head>
+  <body>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <div id="root"></div>
+    <script>
+      const element = React.createElement(
+        "h1",
+        {},
+        "Topics covered",
+        React.createElement(
+          "p",
+          {},
+          "The following is a list of topics covered in MDN learning area."
+        ),
+        React.createElement("h1", {}, "Getting started with the web."),
+        React.createElement(
+          "p",
+          {},
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        ),
+        React.createElement("h1", {}, "HTML - Structuring the webpage."),
+        React.createElement(
+          "p",
+          {},
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        ),
+        React.createElement("h1", {}, "CSS - Styling the web."),
+        React.createElement(
+          "p",
+          {},
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        )
+      );
+
+      var root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(element);
+    </script>
+  </body>
+</html>
